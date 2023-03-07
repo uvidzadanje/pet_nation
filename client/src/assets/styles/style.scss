@@ -1,0 +1,42 @@
+/* ITCSS: Settings */
+@import '_root';
+@import '_var.sass';
+
+/* ITCSS: Tools */
+@import '_mixins.sass';
+
+/* ITCSS: Resets */
+// @import '../../node_modules/normalize.css/normalize';
+
+/* ITCSS: Fonts */
+@import '_modak.scss';
+@import '_icofont.scss';
+
+/* ITCSS: Base */
+@import '_global.sass';
+@import '_utility.sass';
+
+// /* ITCSS: Sections */
+@import '_main.sass';
+@import '_footer.sass';
+@import '_cart.sass';
+
+// /* ITCSS: Components */
+// @import '_card.sass';
+// @import '_topNav.sass';
+@import '_nav.sass'; //nav bar
+@import '_splash.sass'; //pocetna slika na home stranici
+@import '_footer.sass'; //futer
+
+// /* ITCSS: Trumps */
+@import '_mediaqueries.sass';
+@import '_login.sass';
+
+//
+@import '_filter.scss';
+@import '_proizvodi.scss';
+@import '_rating.scss';
+
+@import '_dashboard.scss';
+@import '_dugmici.scss';
+@import '_buyProcess.scss';

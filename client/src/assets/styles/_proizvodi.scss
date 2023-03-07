@@ -1,0 +1,16 @@
+.orijentacija {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px; 
+}
+.kartice {
+    flex: 2;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.blok1 {
+    flex: 1;
+}

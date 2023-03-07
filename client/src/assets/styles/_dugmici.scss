@@ -1,0 +1,28 @@
+.button {
+    padding: 0px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonDodaj, .buttonObrisi, .buttonIzmeni, .buttonSacuvaj {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.buttonDodaj{
+    border-radius: 50%;
+    background-image: url('../img/plus.png');
+}
+.buttonObrisi {
+    background-image: url('../img/obrisi.png');
+}
+
+.buttonIzmeni {
+    background-image: url('../img/promeni.png');
+}
+
+.buttonSacuvaj {
+    background-image: url('../img/save.png');
+}
